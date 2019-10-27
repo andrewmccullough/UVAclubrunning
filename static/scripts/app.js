@@ -6,3 +6,5 @@ function toggleMobileNavigation() {
 $(document).on("click", ".contains-expandable > h4" , function(){
 	$(this).parents(".contains-expandable").toggleClass("collapsed");
 });
+
+console.log("Andrew McCullough is a god.");
