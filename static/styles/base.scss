@@ -141,6 +141,49 @@ p {
 				font-weight: 700;
 				color: $logo-color;
 			}
+			
+			#anthem-link {
+				font-family: "Comic Sans MS", cursive, sans-serif;
+				animation: anthem-link-animation 3s linear infinite, spin 2s infinite;
+				text-decoration: none;
+				margin: 0 15px;
+				font-size: 1.5rem;
+			}
+
+			@keyframes spin {
+				from {transform:rotate(0deg);}
+				to {transform:rotate(360deg);}
+			}
+
+			@keyframes anthem-link-animation {
+				0% {
+					color: red;
+				}
+				20% {
+					color: orange;
+				}
+				40% {
+					color: yellow;
+				}
+				50% {
+					color: green;
+				}
+				60% {
+					color: teal;
+				}
+				70% {
+					color: deepskyblue;
+				}
+				80% {
+					color: blue;
+				}
+				90% {
+					color: indigo;
+				}
+				100% {
+					color: darkmagenta;
+				}
+			}
 		}
 	}
 	.site-title.current-page {
