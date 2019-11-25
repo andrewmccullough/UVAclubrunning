@@ -11,3 +11,4 @@ let anthemLink = "<a href='https://soundcloud.com/user-870446752/sets/club-anthe
 $("#header > .site-title > .container").append(anthemLink);
 
 console.log("Andrew McCullough is a god.");
+console.log("Skyler Moon is a thot.");

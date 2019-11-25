@@ -255,6 +255,12 @@ p {
 		}
 	}
 
+	@media screen and (max-width: 40rem) {
+		#anthem-link {
+			display: none;
+		}
+	}
+
 	@media screen and (max-width: 66rem) {
 
 		.mobile-menu {
